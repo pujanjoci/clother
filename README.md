@@ -1,13 +1,12 @@
-# Clother
+<h1 align="center">Clother 👚</h1>
 
 Clother is a web application that is being built with React and styled using Tailwind CSS. It provides a seamless and visually appealing user experience for managing and exploring clothing collections.
 
-![Demo Preview](https://pujanjoci.github.io/clother)
+[Demo Preview](https://pujanjoci.github.io/clother)
 
 ## Table of Contents
 - [Clother](#clother)
 - [Quick Start Demo](#quick-start-demo)
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
