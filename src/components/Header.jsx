@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { FaUser, FaShoppingCart } from 'react-icons/fa';
 import SubHeader from './SubHeader';
 import items from './Items.json';
@@ -12,11 +12,9 @@ const Header = () => {
 
   const handleCategoryClick = (category) => {
     if (selectedCategory === category) {
-      // If the clicked category is already selected, close the subheader
       setIsSubHeaderOpen(false);
       setSelectedCategory(null);
     } else {
-      // Open subheader for a new category
       setSelectedCategory(category);
       setIsSubHeaderOpen(true);
     }

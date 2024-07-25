@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -55,6 +55,17 @@ const DealsCarousel = ({ deals }) => {
       </Carousel>
     </div>
   );
+};
+
+DealsCarousel.propTypes = {
+  deals: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      subtitle: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default DealsCarousel;

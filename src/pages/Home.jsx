@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Carousel from '../components/Carousel';
 import dealsData from '../components/Deals.json';
 import { ToastContainer, toast } from 'react-toastify';
@@ -6,24 +6,22 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
   const [deals, setDeals] = useState([]);
-  const [redeemCodes, setRedeemCodes] = useState([
+  const [redeemCodes] = useState([
     { id: 1, code: 'REDEEM10', description: '10% off on your next purchase' },
     { id: 2, code: 'DISCOUNT20', description: '20% off on orders over $50' },
     { id: 3, code: 'SAVE30', description: 'Save $30 on orders above $100' }
   ]);
 
   useEffect(() => {
-    // Simulate fetch operation using the imported JSON data
-    setDeals(dealsData);  // Set deals with data from Deals.json
+    setDeals(dealsData);
   }, []);
 
   const handleClaimClick = (code) => {
-    // Display a toast message with custom styling
     toast.success(
       `Redeem code ${code} claimed! It will be used on your next purchase.`,
       {
-        className: 'custom-toast', // Apply custom styles
-        iconClassName: 'custom-toast-icon' // Apply custom icon styles if needed
+        className: 'custom-toast',
+        iconClassName: 'custom-toast-icon'
       }
     );
   };
@@ -32,7 +30,6 @@ const Home = () => {
     <div className="container mx-auto mt-2">
       <Carousel deals={deals} />
       
-      {/* Grid for redeem codes */}
       <div className="grid grid-cols-3 gap-4 mt-4">
         {redeemCodes.map((redeemCode) => (
           <div
@@ -51,7 +48,6 @@ const Home = () => {
         ))}
       </div>
 
-      {/* Toast container */}
       <ToastContainer
         position="top-right"
         autoClose={5000}
