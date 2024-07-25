@@ -1,0 +1,20 @@
+{
+  "maleItems": [
+    "T-Shirts", "Jeans", "Shirts", "Jackets", "Suits", 
+    "Shorts", "Sweaters", "Pants", "Hoodies", "Coats",
+    "Blazers", "Vests", "Socks", "Underwear", "Swimwear",
+    "Polo Shirts", "Cardigans", "Chinos", "Tracksuits", "Winter Wear"
+  ],
+  "femaleItems": [
+    "Dresses", "Tops", "Skirts", "Jeans", "Blouses", 
+    "Coats", "Activewear", "Leggings", "Jumpsuits", "Cardigans",
+    "Swimwear", "Sweaters", "Pants", "Tights", "Shorts",
+    "Tunics", "Tank Tops", "Sarees", "Shawls", "Winter Wear"
+  ],
+  "childrenItems": [
+    "T-Shirts", "Shorts", "Dresses", "Jackets", "Pants", 
+    "Hoodies", "Sweatshirts", "Leggings", "Skirts", "Pajamas",
+    "Swimwear", "Coats", "Snowsuits", "Raincoats", "School Uniforms",
+    "Sports Jerseys", "Tutus", "Onesies", "Socks", "Gloves"
+  ]
+}

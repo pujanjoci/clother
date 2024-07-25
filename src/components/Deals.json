@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Huge Sale",
+    "subtitle":"50% OFF!!!",
+    "description": "50% OFF on all deals for the month of january",
+    "price": "$100",
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "title": "Deal 2",
+    "subtitle":"Some OFF",
+    "description": "Description for deal 2",
+    "price": "$200",
+    "image": "https://via.placeholder.com/300"
+  },
+  {
+    "title": "Deal 3",
+    "subtitle":"Some OFF",
+    "description": "",
+    "price": "$300",
+    "image": "https://via.placeholder.com/300"
+  }
+]
