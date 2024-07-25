@@ -1,11 +1,5 @@
 # Clother
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/pujanjoci/clother?include_prereleases)](https://img.shields.io/github/v/release/pujanjoci/clother?include_prereleases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_GITHUB_USERNAME/clother)](https://img.shields.io/github/last-commit/pujanjoci/clother)
-[![GitHub issues](https://img.shields.io/github/issues-raw/YOUR_GITHUB_USERNAME/clother)](https://img.shields.io/github/issues-raw/pujanjoci/clother)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/YOUR_GITHUB_USERNAME/clother)](https://img.shields.io/github/issues-pr/pujanjoci/clother)
-[![GitHub](https://img.shields.io/github/license/YOUR_GITHUB_USERNAME/clother)](https://img.shields.io/github/license/pujanjoci/clother)
-
 Clother is a web application that is being built with React and styled using Tailwind CSS. It provides a seamless and visually appealing user experience for managing and exploring clothing collections.
 
 ![Demo Preview](https://pujanjoci.github.io/clother)
